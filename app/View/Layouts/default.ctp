@@ -96,8 +96,8 @@ $this->Html->css('/css/custom.css.php?pinBackgroundColor='.$settings['Setting'][
                     <div class="search">
                         <?php
                         echo $this->Form->create('Pin',array('url' => array('controller'=>'pins','action'=>'search'),'class'=>'navbar-form pull-right'));
-                        echo $this->Form->input('search', array('label'=>false,'placeholder'=>'Search','class'=>'span2','div'=>false)); 
-                        echo $this->Form->end(array('div'=>false,'label'=>'Search','class'=>'btn'));
+                        echo $this->Form->input('search', array('label'=>false,'placeholder'=>__('Search'),'class'=>'span2','div'=>false)); 
+                        echo $this->Form->end(array('div'=>false,'label'=>__('Search'),'class'=>'btn'));
                         ?>
                     </div>
                     <?php
