@@ -1,0 +1,223 @@
+body {
+    background: transparent url(../img/adminBack.jpg) 0 0 repeat;
+    padding-top: 51px;
+    min-height: 402px;
+}
+
+footer .navbar
+{
+    position: relative;
+    bottom:0px;
+    left: 0 !important;
+    right: 0 !important;
+    width: 101%;
+    display: block;
+}
+
+.navbar-static-bottom {
+position: static;
+width: 100%;
+margin-bottom: 0;
+bottom:0px;
+margin: -1px -1px 0;
+}
+
+/* FL UI */
+
+.section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+.section-header {
+    background-color: #f6f6f6;
+    background-image: -moz-linear-gradient(top, #fafafa, #f2f2f2);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#f2f2f2));
+    background-image: -webkit-linear-gradient(top, #fafafa, #f2f2f2);
+    background-image: -o-linear-gradient(top, #fafafa, #f2f2f2);
+    background-image: linear-gradient(to bottom, #fafafa,#f2f2f2);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFAFAFA', endColorstr='#FFF2F2F2', GradientType=0);
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 46px;
+    padding: 0 15px 0;
+}
+
+.section-actions {
+    float: right;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+.btn-toolbar /* Düzelt Alt Class Ekle */
+{
+margin: 0;
+}
+.section-body {
+    min-height: 18px;
+    padding: 9px 15px 0;
+}
+
+.form-actions {
+    padding: 17px 20px 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+
+.section-header h3 {
+    line-height: 28px;
+}
+
+.section-header h3, .section-header h5 {
+    color: #555;
+    float: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.section-small .section-header {
+    height: 37px !important;
+    line-height: 37px;
+    padding: 0 11px 0;
+}
+
+.section-small .section-header h5 {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.section-small .section-header .section-actions {
+    margin-top: 4px;
+}
+
+.ac {
+    text-align: center;
+}
+
+.stat-block {
+    color: #454545;
+    margin-bottom: 18px;
+}
+
+h3 {
+font-size: 18px;
+line-height: 20px;
+}
+
+h6 {
+    color: #999;
+    text-transform: uppercase;
+}
+
+h6 {
+font-size: 12px;
+line-height: 20px;
+}
+
+h5 {
+    color: #555;
+    float: left;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.success {
+    color: #508600;
+}
+
+.stat-block h1, .stat-block h2, .stat-block h3, .stat-block h4, .stat-block h5, .stat-block h6 {
+    margin: 0;
+}
+
+#assets-table {
+    font-size: 11px;
+}
+
+.ar {
+    text-align: right !important;
+}
+
+
+
+.well-small {
+    padding: 9px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+outer-bordered td {
+border-left: 0;
+}
+
+.table-bordered, .table-outer-bordered {
+border: 1px solid #ddd;
+border-collapse: separate;
+border-left: 0;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.table-outer-bordered {
+border-left: 1px solid #ddd !important;
+}
+
+.table-outer-bordered td {
+border-left: 1px solid #ddd;
+}
+
+.table th, .table td {
+padding: 8px;
+line-height: 18px;
+text-align: left;
+vertical-align: top;
+border-top: 1px solid #ddd;
+}
+
+bordered {
+border-collapse: separate;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+.table-outer-bordered {
+border-left: 1px solid #ddd;
+}
+
+.table-outer-bordered th, .table-outer-bordered td {
+border-left: 0;
+}
+
+.table-bordered, .table-outer-bordered {
+border: 1px solid #ddd;
+border-collapse: separate;
+border-left: 0;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.table-bordered caption + thead tr:first-child th, .table-outer-bordered caption + thead tr:first-child th, .table-bordered caption + tbody tr:first-child th, .table-outer-bordered caption + tbody tr:first-child th, .table-bordered caption + tbody tr:first-child td, .table-outer-bordered caption + tbody tr:first-child td, .table-bordered colgroup + thead tr:first-child th, .table-outer-bordered colgroup + thead tr:first-child th, .table-bordered colgroup + tbody tr:first-child th, .table-outer-bordered colgroup + tbody tr:first-child th, .table-bordered colgroup + tbody tr:first-child td, .table-outer-bordered colgroup + tbody tr:first-child td, .table-bordered thead:first-child tr:first-child th, .table-outer-bordered thead:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child th, .table-outer-bordered tbody:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child td, .table-outer-bordered tbody:first-child tr:first-child td {
+border-top: 0;
+}

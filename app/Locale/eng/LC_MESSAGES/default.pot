@@ -1,0 +1,508 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-03-22 18:54+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /Categories/add.ctp:4
+#: /Categories/index.ctp:16;125
+msgid "New Category"
+msgstr ""
+
+#: /Categories/add.ctp:12
+#: /Categories/edit.ctp:15
+#: /Pins/add.ctp:12
+#: /Pins/edit.ctp:15
+#: /Settings/add.ctp:12
+#: /Settings/edit.ctp:15
+#: /Settings/install.ctp:14
+#: /Statuses/add.ctp:12
+#: /Statuses/edit.ctp:15
+msgid "Title"
+msgstr ""
+
+#: /Categories/add.ctp:15
+#: /Categories/edit.ctp:18
+msgid "Parent Id"
+msgstr ""
+
+#: /Categories/add.ctp:18
+#: /Categories/edit.ctp:21
+#: /Pins/add.ctp:27
+#: /Pins/edit.ctp:30
+#: /Statuses/view.ctp:30
+msgid "Status Id"
+msgstr ""
+
+#: /Categories/edit.ctp:4
+#: /Categories/view.ctp:12;76
+#: /Elements/categoryActions.ctp:8
+msgid "Edit Category"
+msgstr ""
+
+#: /Categories/edit.ctp:12
+#: /Pins/edit.ctp:12
+#: /Settings/edit.ctp:12
+#: /Statuses/edit.ctp:12
+msgid "Id"
+msgstr ""
+
+#: /Categories/index.ctp:8
+#: /Categories/view.ctp:81
+#: /Statuses/view.ctp:53
+msgid "Categories"
+msgstr ""
+
+#: /Categories/index.ctp:11
+msgid "Showing {:current} categories on this system."
+msgstr ""
+
+#: /Categories/index.ctp:16
+#: /Categories/view.ctp:9
+msgid "Category"
+msgstr ""
+
+#: /Categories/index.ctp:32
+msgid "Showing Categories"
+msgstr ""
+
+#: /Categories/index.ctp:42
+#: /Pins/index.ctp:42
+#: /Settings/index.ctp:42
+#: /Statuses/index.ctp:42
+msgid "Page Number"
+msgstr ""
+
+#: /Categories/index.ctp:52
+#: /Pins/index.ctp:52
+#: /Settings/index.ctp:52
+#: /Statuses/index.ctp:52
+msgid "Total Pages"
+msgstr ""
+
+#: /Categories/index.ctp:104
+#: /Layouts/default.ctp:100
+msgid "Add Pin"
+msgstr ""
+
+#: /Categories/index.ctp:110
+msgid "Add Child Category"
+msgstr ""
+
+#: /Categories/index.ctp:114
+#: /Categories/view.ctp:108;162
+#: /Pins/index.ctp:115
+#: /Settings/index.ctp:118
+#: /Statuses/index.ctp:88
+#: /Statuses/view.ctp:80;134
+msgid "View"
+msgstr ""
+
+#: /Categories/index.ctp:115
+#: /Categories/view.ctp:109;163
+#: /Elements/categoryActions.ctp:17
+#: /Pins/index.ctp:116
+#: /Settings/index.ctp:119
+#: /Statuses/index.ctp:89
+#: /Statuses/view.ctp:81;135
+msgid "Edit"
+msgstr ""
+
+#: /Categories/index.ctp:116
+#: /Categories/view.ctp:18;110;164
+#: /Elements/categoryActions.ctp:21
+#: /Pins/index.ctp:117
+#: /Pins/view.ctp:18
+#: /Settings/index.ctp:120
+#: /Settings/view.ctp:18
+#: /Statuses/index.ctp:90
+#: /Statuses/view.ctp:18;82;136
+msgid "Delete"
+msgstr ""
+
+#: /Categories/index.ctp:116
+#: /Categories/view.ctp:18;110;164
+#: /Elements/categoryActions.ctp:23
+#: /Pins/index.ctp:117
+#: /Pins/view.ctp:18
+#: /Settings/index.ctp:120
+#: /Settings/view.ctp:18
+#: /Statuses/index.ctp:90
+#: /Statuses/view.ctp:18;82;136
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: /Categories/view.ctp:25
+msgid "Category Information"
+msgstr ""
+
+#: /Categories/view.ctp:30
+#: /Pins/add.ctp:24
+#: /Pins/edit.ctp:27
+msgid "Category Id"
+msgstr ""
+
+#: /Categories/view.ctp:37
+msgid "Category Title"
+msgstr ""
+
+#: /Categories/view.ctp:44
+msgid "Category Parent Category"
+msgstr ""
+
+#: /Categories/view.ctp:51
+msgid "Category Lft"
+msgstr ""
+
+#: /Categories/view.ctp:58
+msgid "Category Rght"
+msgstr ""
+
+#: /Categories/view.ctp:65
+msgid "Category Status"
+msgstr ""
+
+#: /Categories/view.ctp:128
+msgid "New  Child Category"
+msgstr ""
+
+#: /Categories/view.ctp:134
+#: /Pins/index.ctp:8
+#: /Statuses/view.ctp:106
+msgid "Pins"
+msgstr ""
+
+#: /Categories/view.ctp:182
+#: /Statuses/view.ctp:154
+msgid "New  Pin"
+msgstr ""
+
+#: /Elements/addPin.ctp:8
+msgid "Add Pin Here"
+msgstr ""
+
+#: /Elements/widgetPin.ctp:24;40
+msgid "Go to site"
+msgstr ""
+
+#: /Elements/widgetPin.ctp:39
+msgid "View Details"
+msgstr ""
+
+#: /Layouts/default.ctp:110
+msgid "Edit Page Settings"
+msgstr ""
+
+#: /Pins/add.ctp:4
+#: /Pins/index.ctp:16;126
+msgid "New Pin"
+msgstr ""
+
+#: /Pins/add.ctp:15
+#: /Pins/edit.ctp:18
+msgid "Link"
+msgstr ""
+
+#: /Pins/add.ctp:18
+#: /Pins/edit.ctp:21
+msgid "Description"
+msgstr ""
+
+#: /Pins/add.ctp:21
+#: /Pins/edit.ctp:24
+msgid "Picture"
+msgstr ""
+
+#: /Pins/edit.ctp:4
+#: /Pins/view.ctp:12;83
+msgid "Edit Pin"
+msgstr ""
+
+#: /Pins/index.ctp:11
+msgid "Showing {:current} pins on this system."
+msgstr ""
+
+#: /Pins/index.ctp:16
+#: /Pins/view.ctp:9
+msgid "Pin"
+msgstr ""
+
+#: /Pins/index.ctp:32
+msgid "Showing Pins"
+msgstr ""
+
+#: /Pins/view.ctp:25
+msgid "Pin Information"
+msgstr ""
+
+#: /Pins/view.ctp:30
+msgid "Pin Id"
+msgstr ""
+
+#: /Pins/view.ctp:37
+msgid "Pin Title"
+msgstr ""
+
+#: /Pins/view.ctp:44
+msgid "Pin Link"
+msgstr ""
+
+#: /Pins/view.ctp:51
+msgid "Pin Description"
+msgstr ""
+
+#: /Pins/view.ctp:58
+msgid "Pin Picture"
+msgstr ""
+
+#: /Pins/view.ctp:65
+msgid "Pin Category"
+msgstr ""
+
+#: /Pins/view.ctp:72
+msgid "Pin Status"
+msgstr ""
+
+#: /Settings/add.ctp:4
+#: /Settings/index.ctp:16;129
+msgid "New Setting"
+msgstr ""
+
+#: /Settings/add.ctp:15
+#: /Settings/edit.ctp:18
+#: /Settings/install.ctp:17
+msgid "Logo"
+msgstr ""
+
+#: /Settings/add.ctp:18
+#: /Settings/edit.ctp:21
+#: /Settings/install.ctp:20
+msgid "Slogan"
+msgstr ""
+
+#: /Settings/add.ctp:21
+#: /Settings/edit.ctp:24
+#: /Settings/install.ctp:23
+msgid "PinBackgroundColor"
+msgstr ""
+
+#: /Settings/add.ctp:24
+#: /Settings/edit.ctp:27
+#: /Settings/install.ctp:26
+msgid "BodyBackgroundColor"
+msgstr ""
+
+#: /Settings/add.ctp:27
+msgid "BackgroundImage"
+msgstr ""
+
+#: /Settings/add.ctp:30
+#: /Settings/edit.ctp:33
+#: /Settings/install.ctp:32
+msgid "HeaderBackgroundColor"
+msgstr ""
+
+#: /Settings/edit.ctp:4
+#: /Settings/view.ctp:12;90
+msgid "Edit Setting"
+msgstr ""
+
+#: /Settings/edit.ctp:30
+#: /Settings/install.ctp:29
+msgid "Background Image"
+msgstr ""
+
+#: /Settings/index.ctp:8
+msgid "Settings"
+msgstr ""
+
+#: /Settings/index.ctp:11
+msgid "Showing {:current} settings on this system."
+msgstr ""
+
+#: /Settings/index.ctp:16
+#: /Settings/view.ctp:9
+msgid "Setting"
+msgstr ""
+
+#: /Settings/index.ctp:32
+msgid "Showing Settings"
+msgstr ""
+
+#: /Settings/install.ctp:7
+msgid "Install"
+msgstr ""
+
+#: /Settings/view.ctp:25
+msgid "Setting Information"
+msgstr ""
+
+#: /Settings/view.ctp:30
+msgid "Setting Id"
+msgstr ""
+
+#: /Settings/view.ctp:37
+msgid "Setting Title"
+msgstr ""
+
+#: /Settings/view.ctp:44
+msgid "Setting Logo"
+msgstr ""
+
+#: /Settings/view.ctp:51
+msgid "Setting Slogan"
+msgstr ""
+
+#: /Settings/view.ctp:58
+msgid "Setting PinBackgroundColor"
+msgstr ""
+
+#: /Settings/view.ctp:65
+msgid "Setting BodyBackgroundColor"
+msgstr ""
+
+#: /Settings/view.ctp:72
+msgid "Setting BackgroundImage"
+msgstr ""
+
+#: /Settings/view.ctp:79
+msgid "Setting HeaderBackgroundColor"
+msgstr ""
+
+#: /Statuses/add.ctp:4
+#: /Statuses/index.ctp:16;99
+msgid "New Status"
+msgstr ""
+
+#: /Statuses/edit.ctp:4
+#: /Statuses/view.ctp:12;48
+msgid "Edit Status"
+msgstr ""
+
+#: /Statuses/index.ctp:8
+msgid "Statuses"
+msgstr ""
+
+#: /Statuses/index.ctp:11
+msgid "Showing {:current} statuses on this system."
+msgstr ""
+
+#: /Statuses/index.ctp:16
+#: /Statuses/view.ctp:9
+msgid "Status"
+msgstr ""
+
+#: /Statuses/index.ctp:32
+msgid "Showing Statuses"
+msgstr ""
+
+#: /Statuses/view.ctp:25
+msgid "Status Information"
+msgstr ""
+
+#: /Statuses/view.ctp:37
+msgid "Status Title"
+msgstr ""
+
+#: /Statuses/view.ctp:100
+msgid "New  Category"
+msgstr ""
+
+#: /Categories.php:60;75;158;212
+msgid "Invalid category"
+msgstr ""
+
+#: /Categories.php:121;162
+msgid "The category has been saved"
+msgstr ""
+
+#: /Categories.php:124;165
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: /Categories.php:216
+msgid "Category deleted"
+msgstr ""
+
+#: /Categories.php:219
+msgid "Category was not deleted"
+msgstr ""
+
+#: /Pins.php:31;117;168
+msgid "Invalid pin"
+msgstr ""
+
+#: /Pins.php:89;143
+msgid "The pin has been saved"
+msgstr ""
+
+#: /Pins.php:92;146
+msgid "The pin could not be saved. Please, try again."
+msgstr ""
+
+#: /Pins.php:172
+msgid "Pin deleted"
+msgstr ""
+
+#: /Pins.php:175
+msgid "Pin was not deleted"
+msgstr ""
+
+#: /Settings.php:31;156;225
+msgid "Invalid setting"
+msgstr ""
+
+#: /Settings.php:134
+msgid "Application installed successfully."
+msgstr ""
+
+#: /Settings.php:137;206
+msgid "The setting could not be saved. Please, try again."
+msgstr ""
+
+#: /Settings.php:142
+msgid "Application is already installed."
+msgstr ""
+
+#: /Settings.php:203
+msgid "The setting has been saved"
+msgstr ""
+
+#: /Settings.php:229
+msgid "Setting deleted"
+msgstr ""
+
+#: /Settings.php:232
+msgid "Setting was not deleted"
+msgstr ""
+
+#: /Statuses.php:31;63;89
+msgid "Invalid status"
+msgstr ""
+
+#: /Statuses.php:46;67
+msgid "The status has been saved"
+msgstr ""
+
+#: /Statuses.php:49;70
+msgid "The status could not be saved. Please, try again."
+msgstr ""
+
+#: /Statuses.php:93
+msgid "Status deleted"
+msgstr ""
+
+#: /Statuses.php:96
+msgid "Status was not deleted"
+msgstr ""
+

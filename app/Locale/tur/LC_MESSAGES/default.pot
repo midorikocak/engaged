@@ -1,0 +1,439 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-03-22 18:54+0200\n"
+"PO-Revision-Date: 2013-03-22 18:58+0100\n"
+"Last-Translator: Midori Kocak <Mutlu Tevfik Kocak>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: /Categories/add.ctp:4 /Categories/index.ctp:16;125
+msgid "New Category"
+msgstr "Yeni Kategori"
+
+#: /Categories/add.ctp:12 /Categories/edit.ctp:15 /Pins/add.ctp:12
+#: /Pins/edit.ctp:15 /Settings/add.ctp:12 /Settings/edit.ctp:15
+#: /Settings/install.ctp:14 /Statuses/add.ctp:12 /Statuses/edit.ctp:15
+msgid "Title"
+msgstr "Başlık"
+
+#: /Categories/add.ctp:15 /Categories/edit.ctp:18
+msgid "Parent Id"
+msgstr "Üst Kategori"
+
+#: /Categories/add.ctp:18 /Categories/edit.ctp:21 /Pins/add.ctp:27
+#: /Pins/edit.ctp:30 /Statuses/view.ctp:30
+msgid "Status Id"
+msgstr "Durum"
+
+#: /Categories/edit.ctp:4 /Categories/view.ctp:12;76
+#: /Elements/categoryActions.ctp:8
+msgid "Edit Category"
+msgstr "Kategoriyi Düzenle"
+
+#: /Categories/edit.ctp:12 /Pins/edit.ctp:12 /Settings/edit.ctp:12
+#: /Statuses/edit.ctp:12
+msgid "Id"
+msgstr "Id"
+
+#: /Categories/index.ctp:8 /Categories/view.ctp:81 /Statuses/view.ctp:53
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: /Categories/index.ctp:11
+msgid "Showing {:current} categories on this system."
+msgstr "{:current} kategori gösteriliyor"
+
+#: /Categories/index.ctp:16 /Categories/view.ctp:9
+msgid "Category"
+msgstr "Kategori"
+
+#: /Categories/index.ctp:32
+msgid "Showing Categories"
+msgstr "Gösterilen Kategoriler"
+
+#: /Categories/index.ctp:42 /Pins/index.ctp:42 /Settings/index.ctp:42
+#: /Statuses/index.ctp:42
+msgid "Page Number"
+msgstr "Sayfa Numarası"
+
+#: /Categories/index.ctp:52 /Pins/index.ctp:52 /Settings/index.ctp:52
+#: /Statuses/index.ctp:52
+msgid "Total Pages"
+msgstr "Toplam Sayfa"
+
+#: /Categories/index.ctp:104 /Layouts/default.ctp:100
+msgid "Add Pin"
+msgstr "Pin Ekle"
+
+#: /Categories/index.ctp:110
+msgid "Add Child Category"
+msgstr "Alt Kategori Ekle"
+
+#: /Categories/index.ctp:114 /Categories/view.ctp:108;162 /Pins/index.ctp:115
+#: /Settings/index.ctp:118 /Statuses/index.ctp:88 /Statuses/view.ctp:80;134
+msgid "View"
+msgstr "Gör"
+
+#: /Categories/index.ctp:115 /Categories/view.ctp:109;163
+#: /Elements/categoryActions.ctp:17 /Pins/index.ctp:116
+#: /Settings/index.ctp:119 /Statuses/index.ctp:89 /Statuses/view.ctp:81;135
+msgid "Edit"
+msgstr "Düzenle"
+
+#: /Categories/index.ctp:116 /Categories/view.ctp:18;110;164
+#: /Elements/categoryActions.ctp:21 /Pins/index.ctp:117 /Pins/view.ctp:18
+#: /Settings/index.ctp:120 /Settings/view.ctp:18 /Statuses/index.ctp:90
+#: /Statuses/view.ctp:18;82;136
+msgid "Delete"
+msgstr "Sil"
+
+#: /Categories/index.ctp:116 /Categories/view.ctp:18;110;164
+#: /Elements/categoryActions.ctp:23 /Pins/index.ctp:117 /Pins/view.ctp:18
+#: /Settings/index.ctp:120 /Settings/view.ctp:18 /Statuses/index.ctp:90
+#: /Statuses/view.ctp:18;82;136
+msgid "Are you sure you want to delete # %s?"
+msgstr "# %s silmek istediğinizden emin misiniz?"
+
+#: /Categories/view.ctp:25
+msgid "Category Information"
+msgstr "Bilgi"
+
+#: /Categories/view.ctp:30 /Pins/add.ctp:24 /Pins/edit.ctp:27
+msgid "Category Id"
+msgstr "Id"
+
+#: /Categories/view.ctp:37
+msgid "Category Title"
+msgstr "Başlık"
+
+#: /Categories/view.ctp:44
+msgid "Category Parent Category"
+msgstr "Üstkategori"
+
+#: /Categories/view.ctp:51
+msgid "Category Lft"
+msgstr "Sol"
+
+#: /Categories/view.ctp:58
+msgid "Category Rght"
+msgstr "Sağ"
+
+#: /Categories/view.ctp:65
+msgid "Category Status"
+msgstr "Durum"
+
+#: /Categories/view.ctp:128
+msgid "New  Child Category"
+msgstr "Yeni Alt Kategori"
+
+#: /Categories/view.ctp:134 /Pins/index.ctp:8 /Statuses/view.ctp:106
+msgid "Pins"
+msgstr "Pin"
+
+#: /Categories/view.ctp:182 /Statuses/view.ctp:154
+msgid "New  Pin"
+msgstr "Yeni Pin"
+
+#: /Elements/addPin.ctp:8
+msgid "Add Pin Here"
+msgstr "Buraya Pin Ekle"
+
+#: /Elements/widgetPin.ctp:24;40
+msgid "Go to site"
+msgstr "Siteye git"
+
+#: /Elements/widgetPin.ctp:39
+msgid "View Details"
+msgstr "Detayları Gör"
+
+#: /Layouts/default.ctp:110
+msgid "Edit Page Settings"
+msgstr "Sayfa Ayarlarını Düzenle"
+
+#: /Pins/add.ctp:4 /Pins/index.ctp:16;126
+msgid "New Pin"
+msgstr "Yeni Pin"
+
+#: /Pins/add.ctp:15 /Pins/edit.ctp:18
+msgid "Link"
+msgstr "Link"
+
+#: /Pins/add.ctp:18 /Pins/edit.ctp:21
+msgid "Description"
+msgstr "Açıklama"
+
+#: /Pins/add.ctp:21 /Pins/edit.ctp:24
+msgid "Picture"
+msgstr "Resim"
+
+#: /Pins/edit.ctp:4 /Pins/view.ctp:12;83
+msgid "Edit Pin"
+msgstr "Pini Düzenle"
+
+#: /Pins/index.ctp:11
+msgid "Showing {:current} pins on this system."
+msgstr "{:current} pin gösteriliyor."
+
+#: /Pins/index.ctp:16 /Pins/view.ctp:9
+msgid "Pin"
+msgstr "Pin"
+
+#: /Pins/index.ctp:32
+msgid "Showing Pins"
+msgstr "Gösterilen Pin"
+
+#: /Pins/view.ctp:25
+msgid "Pin Information"
+msgstr "Bilgi"
+
+#: /Pins/view.ctp:30
+msgid "Pin Id"
+msgstr "Id"
+
+#: /Pins/view.ctp:37
+msgid "Pin Title"
+msgstr "Başlık"
+
+#: /Pins/view.ctp:44
+msgid "Pin Link"
+msgstr "Link"
+
+#: /Pins/view.ctp:51
+msgid "Pin Description"
+msgstr "Açıklama"
+
+#: /Pins/view.ctp:58
+msgid "Pin Picture"
+msgstr "Resim"
+
+#: /Pins/view.ctp:65
+msgid "Pin Category"
+msgstr "Kategori"
+
+#: /Pins/view.ctp:72
+msgid "Pin Status"
+msgstr "Durum"
+
+#: /Settings/add.ctp:4 /Settings/index.ctp:16;129
+msgid "New Setting"
+msgstr "Yeni Ayar"
+
+#: /Settings/add.ctp:15 /Settings/edit.ctp:18 /Settings/install.ctp:17
+msgid "Logo"
+msgstr "Logo"
+
+#: /Settings/add.ctp:18 /Settings/edit.ctp:21 /Settings/install.ctp:20
+msgid "Slogan"
+msgstr "Slogan"
+
+#: /Settings/add.ctp:21 /Settings/edit.ctp:24 /Settings/install.ctp:23
+msgid "PinBackgroundColor"
+msgstr "Pin Arkaplanı Rengi"
+
+#: /Settings/add.ctp:24 /Settings/edit.ctp:27 /Settings/install.ctp:26
+msgid "BodyBackgroundColor"
+msgstr "Sayfa Arkaplanı Regi"
+
+#: /Settings/add.ctp:27
+msgid "BackgroundImage"
+msgstr "Arkaplan Resmi"
+
+#: /Settings/add.ctp:30 /Settings/edit.ctp:33 /Settings/install.ctp:32
+msgid "HeaderBackgroundColor"
+msgstr "Başlık Arkaplanı Rengi"
+
+#: /Settings/edit.ctp:4 /Settings/view.ctp:12;90
+msgid "Edit Setting"
+msgstr "Ayarı Düzenle"
+
+#: /Settings/edit.ctp:30 /Settings/install.ctp:29
+msgid "Background Image"
+msgstr "Arkaplan Resmi"
+
+#: /Settings/index.ctp:8
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: /Settings/index.ctp:11
+msgid "Showing {:current} settings on this system."
+msgstr "{:current} ayar gösteriliyor."
+
+#: /Settings/index.ctp:16 /Settings/view.ctp:9
+msgid "Setting"
+msgstr "Ayar"
+
+#: /Settings/index.ctp:32
+msgid "Showing Settings"
+msgstr "Ayar Gösteriliyor"
+
+#: /Settings/install.ctp:7
+msgid "Install"
+msgstr "Kurulum"
+
+#: /Settings/view.ctp:25
+msgid "Setting Information"
+msgstr "Bilgi"
+
+#: /Settings/view.ctp:30
+msgid "Setting Id"
+msgstr "Id"
+
+#: /Settings/view.ctp:37
+msgid "Setting Title"
+msgstr "Başlık"
+
+#: /Settings/view.ctp:44
+msgid "Setting Logo"
+msgstr "Logo"
+
+#: /Settings/view.ctp:51
+msgid "Setting Slogan"
+msgstr "Slogan"
+
+#: /Settings/view.ctp:58
+msgid "Setting PinBackgroundColor"
+msgstr "Pin Arkaplanı Rengi"
+
+#: /Settings/view.ctp:65
+msgid "Setting BodyBackgroundColor"
+msgstr "Sayfa Arkaplanı Rengi"
+
+#: /Settings/view.ctp:72
+msgid "Setting BackgroundImage"
+msgstr "Arkaplan Resmi"
+
+#: /Settings/view.ctp:79
+msgid "Setting HeaderBackgroundColor"
+msgstr "Başlık Arkaplanı Rengi"
+
+#: /Statuses/add.ctp:4 /Statuses/index.ctp:16;99
+msgid "New Status"
+msgstr "Yeni Durum"
+
+#: /Statuses/edit.ctp:4 /Statuses/view.ctp:12;48
+msgid "Edit Status"
+msgstr "Durumu Düzenle"
+
+#: /Statuses/index.ctp:8
+msgid "Statuses"
+msgstr "Durumlar"
+
+#: /Statuses/index.ctp:11
+msgid "Showing {:current} statuses on this system."
+msgstr "{:current} durum gösteriliyor."
+
+#: /Statuses/index.ctp:16 /Statuses/view.ctp:9
+msgid "Status"
+msgstr "Durum"
+
+#: /Statuses/index.ctp:32
+msgid "Showing Statuses"
+msgstr "Durum Gösteriliyor"
+
+#: /Statuses/view.ctp:25
+msgid "Status Information"
+msgstr "Bilgi"
+
+#: /Statuses/view.ctp:37
+msgid "Status Title"
+msgstr "Başlık"
+
+#: /Statuses/view.ctp:100
+msgid "New  Category"
+msgstr "Yeni Kategori"
+
+#: /Categories.php:60;75;158;212
+msgid "Invalid category"
+msgstr "Bilinmeyen Kategori"
+
+#: /Categories.php:121;162
+msgid "The category has been saved"
+msgstr "Kategori Kaydedildi"
+
+#: /Categories.php:124;165
+msgid "The category could not be saved. Please, try again."
+msgstr "Kategori kaydedilemedi. Lütfen tekrar deneyin."
+
+#: /Categories.php:216
+msgid "Category deleted"
+msgstr "Kategori silindi."
+
+#: /Categories.php:219
+msgid "Category was not deleted"
+msgstr "Kategori silinemedi."
+
+#: /Pins.php:31;117;168
+msgid "Invalid pin"
+msgstr "Hatalı pin"
+
+#: /Pins.php:89;143
+msgid "The pin has been saved"
+msgstr "Pin kaydedildi"
+
+#: /Pins.php:92;146
+msgid "The pin could not be saved. Please, try again."
+msgstr "Pin kaydedilemedi. Lütfen tekrar deneyin."
+
+#: /Pins.php:172
+msgid "Pin deleted"
+msgstr "Pin silindi"
+
+#: /Pins.php:175
+msgid "Pin was not deleted"
+msgstr "Pin silinemedi"
+
+#: /Settings.php:31;156;225
+msgid "Invalid setting"
+msgstr "Bilinmeyen ayar"
+
+#: /Settings.php:134
+msgid "Application installed successfully."
+msgstr "Uygulama başarıyla kuruldu."
+
+#: /Settings.php:137;206
+msgid "The setting could not be saved. Please, try again."
+msgstr "Ayar kaydedilemedi. Lütfen tekrar deneyin."
+
+#: /Settings.php:142
+msgid "Application is already installed."
+msgstr "Uygulama zaten yüklü."
+
+#: /Settings.php:203
+msgid "The setting has been saved"
+msgstr "Ayar kaydedildi"
+
+#: /Settings.php:229
+msgid "Setting deleted"
+msgstr "Ayar silindi"
+
+#: /Settings.php:232
+msgid "Setting was not deleted"
+msgstr "Ayar silinemedi"
+
+#: /Statuses.php:31;63;89
+msgid "Invalid status"
+msgstr "Bilinmeyen durum"
+
+#: /Statuses.php:46;67
+msgid "The status has been saved"
+msgstr "Durum kaydedildi"
+
+#: /Statuses.php:49;70
+msgid "The status could not be saved. Please, try again."
+msgstr "Durum kayıt edilemedi. Lütfen tekrar deneyin"
+
+#: /Statuses.php:93
+msgid "Status deleted"
+msgstr "Durum silindi"
+
+#: /Statuses.php:96
+msgid "Status was not deleted"
+msgstr "Durum silinemedi"
