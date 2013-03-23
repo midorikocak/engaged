@@ -144,8 +144,10 @@ CREATE TABLE IF NOT EXISTS `pins` (
   `picture` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
   `category_id` int(11) NOT NULL,
   `status_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci AUTO_INCREMENT=2 ;
+
 
 -- --------------------------------------------------------
 
