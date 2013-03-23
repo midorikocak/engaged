@@ -152,7 +152,18 @@
         <?php echo $this->fetch('content'); ?>
         <hr>
         <footer>
-            <p>&copy; Company 2013</p>
+            <p>
+                <?php
+                if(isset($settings['Setting']['footer']))
+                {
+                    echo $settings['Setting']['footer'];
+                }
+                else
+                {
+                    echo '&copy; Engaged 2013';
+                }
+                ?>    
+            </p>
         </footer>
     </div> <!-- /container -->
     <?php

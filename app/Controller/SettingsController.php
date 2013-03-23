@@ -131,15 +131,15 @@ class SettingsController extends AppController {
                                       }
                                   }
                 if ($this->Setting->save($this->request->data)) {
-                 $this->Session->setFlash(__('Application installed successfully.'));
+                 $this->Session->setFlash(__('Application installed successfully.'),'success');
                  $this->redirect('/');
                 } else {
-                 $this->Session->setFlash(__('The setting could not be saved. Please, try again.'));
+                 $this->Session->setFlash(__('The setting could not be saved. Please, try again.'),'error');
                 }
     		}
     		}
     		else {
-				$this->Session->setFlash(__('Application is already installed.'));
+				$this->Session->setFlash(__('Application is already installed.'),'warning');
 				$this->redirect('/');
 			}
     	}

@@ -19,6 +19,9 @@
 		echo "<div class=\"string control-group stringish\" id=\"slogan\">";
 		echo $this->Form->input('slogan', array('label'=>array('text'=>__('Slogan'),'class'=>'control-label'), 'between'=>'<div class="controls">', 'after'=>'</div>'));
 		echo "</div>";
+		echo "<div class=\"string control-group stringish\" id=\"footer\">";
+		echo $this->Form->input('footer', array('label'=>array('text'=>__('Footer'),'class'=>'control-label'), 'between'=>'<div class="controls">', 'after'=>'</div>'));
+		echo "</div>";
 		echo "<div class=\"string control-group stringish\" id=\"pinBackgroundColor\">";
 		echo $this->Form->input('pinBackgroundColor', array('class'=>'minicolors','label'=>array('text'=>__('PinBackgroundColor'),'class'=>'control-label'), 'between'=>'<div class="controls">', 'after'=>'</div>'));
 		echo "</div>";
