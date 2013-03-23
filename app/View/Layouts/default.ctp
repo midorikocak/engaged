@@ -1,7 +1,16 @@
 <?php echo $this->Html->docType('html5'); ?>
 <head>
     <title>
-        <?php echo $title_for_layout ?>
+        <?php
+        if(isset($settings['Setting']['title']))
+        {
+            echo $settings['Setting']['title'];
+        }
+        else
+        {
+            echo 'Engaged';
+        }
+        ?>
     </title>
     <?php
     echo $this->Html->charset('utf8');
@@ -14,8 +23,8 @@
     $settings = Cache::read("Settings","long");
     if(!empty($settings))
     {
-$this->Html->css('/css/custom.css.php?pinBackgroundColor='.$settings['Setting']['pinBackgroundColor'].'&bodyBackgroundColor='.$settings['Setting']['bodyBackgroundColor'].'&headerBackgroundColor='.$settings['Setting']['headerBackgroundColor'].'&backgroundImage='.urlencode($settings['Setting']['backgroundImage']), null, array('inline' => false));
-    }
+        $this->Html->css('/css/custom.css.php?pinBackgroundColor='.urlencode($settings['Setting']['pinBackgroundColor']).'&bodyBackgroundColor='.urlencode($settings['Setting']['bodyBackgroundColor']).'&headerBackgroundColor='.urlencode($settings['Setting']['headerBackgroundColor']).'&backgroundImage='.urlencode($settings['Setting']['backgroundImage']), null, array('inline' => false));
+}
     else
     {
         $this->Html->css('/css/custom.css.php?php', null, array('inline' => false));
