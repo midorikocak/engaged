@@ -481,7 +481,8 @@ class UserController extends AuthakeAppController {
 					$this->redirect(array('action'=>'lost_password'));
 				}
 
-				$md5 = $user['User']['passwordchangecode'] = md5(time()*rand().$user['User']['email']);
+				$user['User']['passwordchangecode'] = md5(time()*rand().$user['User']['email']);
+				$md5 = $user['User']['passwordchangecode'];
 				$this->User->unbindModel(array('hasAndBelongsToMany'=>array('Group')), false);
 
 				if ($this->User->save($user))
