@@ -144,6 +144,11 @@
     </div>
     </header>
     <div class="container">
+        <?php
+		if ($this->Session->check('Message.flash')):
+			echo $this->Session->flash();
+		endif;
+		?>
         <?php echo $this->fetch('content'); ?>
         <hr>
         <footer>
