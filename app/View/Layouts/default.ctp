@@ -146,7 +146,7 @@
     <div class="container">
         <?php
 		if ($this->Session->check('Message.flash')):
-			echo $this->Session->flash();
+			echo '<br>'.$this->Session->flash();
 		endif;
 		?>
         <?php echo $this->fetch('content'); ?>
