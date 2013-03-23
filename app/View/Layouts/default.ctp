@@ -101,7 +101,7 @@ $this->Html->css('/css/custom.css.php?pinBackgroundColor='.$settings['Setting'][
                         ?>
                     </div>
                     <?php
-                    if(in_array('Administrators',$this->Authake->getGroupNames())):
+                    if($this->Authake->getUserId()):
                     ?>
                     <div class="btn-group actionButtons pull-left" style="margin-right:3px; z-index:89;">
                     	<a class="btn btn-mini btn-danger" onclick="newPin();">
@@ -110,7 +110,9 @@ $this->Html->css('/css/custom.css.php?pinBackgroundColor='.$settings['Setting'][
                     		<?php echo __('Add Pin');?>
                     	</a>
                     </div>
+                    <?php endif;?>
                     <?php
+                    if(in_array('Administrators',$this->Authake->getGroupNames())):
                     if(!empty($settings)):
                     ?>
                     <div class="btn-group actionButtons pull-left" style="margin-right:3px; z-index:89;">
@@ -153,24 +155,6 @@ $this->Html->css('/css/custom.css.php?pinBackgroundColor='.$settings['Setting'][
             	});
             	$('#addCategory').modal();
             }
-            function newPin()
-            {
-            	var link = "<?php echo $this->Html->url(array('controller'=>'pins','action'=>'add')); ?>"+"/";
-            	$('#mainDynamicData').empty();
-            	$('#mainDynamicData').load(link, function(data) {
-            		$('#addPin').modal();
-            	});
-            	$('#addPin').modal();
-            }
-            function addPin(categoryId)
-            {
-            	var link = "<?php echo $this->Html->url(array('controller'=>'pins','action'=>'add')); ?>"+"/";
-            	$('#mainDynamicData').empty();
-            	$('#mainDynamicData').load(link+categoryId, function(data) {
-            		$('#addPin').modal();
-            	});
-            	$('#addPin').modal();
-            }
             function editCategory(categoryId)
             {
             	var link = "<?php echo $this->Html->url(array('controller'=>'categories','action'=>'edit')); ?>"+"/";
@@ -193,5 +177,25 @@ $this->Html->css('/css/custom.css.php?pinBackgroundColor='.$settings['Setting'][
         <?php
     }
     ?>
+    <script>
+    function newPin()
+    {
+    	var link = "<?php echo $this->Html->url(array('controller'=>'pins','action'=>'add')); ?>"+"/";
+    	$('#mainDynamicData').empty();
+    	$('#mainDynamicData').load(link, function(data) {
+    		$('#addPin').modal();
+    	});
+    	$('#addPin').modal();
+    }
+    function addPin(categoryId)
+    {
+    	var link = "<?php echo $this->Html->url(array('controller'=>'pins','action'=>'add')); ?>"+"/";
+    	$('#mainDynamicData').empty();
+    	$('#mainDynamicData').load(link+categoryId, function(data) {
+    		$('#addPin').modal();
+    	});
+    	$('#addPin').modal();
+    }
+    </script>
 </body>
 </html>

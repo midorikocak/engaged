@@ -53,6 +53,13 @@ class Pin extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
+		),
+		'User' => array(
+			'className' => 'Authake.User',
+			'foreignKey' => 'user_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
 		)
 	);
 }

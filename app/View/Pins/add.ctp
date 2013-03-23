@@ -23,9 +23,17 @@
 		echo "<div class=\"string control-group stringish\" id=\"category_id\">";
 		echo $this->Form->input('category_id', array('label'=>array('text'=>__('Category Id'),'class'=>'control-label'), 'between'=>'<div class="controls">', 'after'=>'</div>'));
 		echo "</div>";
+		if(in_array('Administrators',$this->Authake->getGroupNames()))
+        {
 		echo "<div class=\"string control-group stringish\" id=\"status_id\">";
 		echo $this->Form->input('status_id', array('label'=>array('text'=>__('Status Id'),'class'=>'control-label'), 'between'=>'<div class="controls">', 'after'=>'</div>'));
 		echo "</div>";
+	    }
+	    else
+	    {
+	        echo $this->Form->hidden('status_id', array('value' => 1));
+	    }
+	    echo $this->Form->hidden('user_id', array('value' => $this->Authake->getUserId()));
 	?>
 			</fieldset>
 		</div>

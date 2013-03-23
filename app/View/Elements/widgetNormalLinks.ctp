@@ -54,7 +54,7 @@ function icgoster($marray,$in,$html,$authake,$word)
 
         }
     }
-    if($authake->getUserId())
+    if(in_array('Administrators',$authake->getGroupNames()))
     {
         if(!empty($array))
         {
