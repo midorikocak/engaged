@@ -22,33 +22,33 @@
 			<div class="section-body">
 				<div class="span12">
 					<div class="page-header">
-						<h3><?php  echo __('Category Information'); ?></h3>
+						<h3><?php  echo __('Information'); ?></h3>
 					</div>
 					<table class="table table-outer-bordered table-striped">
 						<tbody>
 									<tr>
-									<th class="span3"><?php echo __('Category Id'); ?></th>
+									<th class="span3"><?php echo __('Id'); ?></th>
 		<td>
 			<?php echo h($category['Category']['id']); ?>
 			&nbsp;
 		</td>
 									</tr>
 		<tr>
-									<th class="span3"><?php echo __('Category Title'); ?></th>
+									<th class="span3"><?php echo __('Title'); ?></th>
 		<td>
 			<?php echo h($category['Category']['title']); ?>
 			&nbsp;
 		</td>
 									</tr>
 		<tr>
-											<th class="span3"><?php echo __('Category Parent Category'); ?></th>
+											<th class="span3"><?php echo __('Parent Category'); ?></th>
 		<td>
 			<?php echo $this->Html->link($category['ParentCategory']['title'], array('controller' => 'categories', 'action' => 'view', $category['ParentCategory']['id'])); ?>
 			&nbsp;
 		</td>
 											</tr>
 		<tr>
-											<th class="span3"><?php echo __('Category Status'); ?></th>
+											<th class="span3"><?php echo __('Status'); ?></th>
 		<td>
 			<?php echo $this->Html->link($category['Status']['title'], array('controller' => 'statuses', 'action' => 'view', $category['Status']['id'])); ?>
 			&nbsp;

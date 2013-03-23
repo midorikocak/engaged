@@ -63,6 +63,7 @@
 								<li class=""><?php echo $this->Paginator->sort('link'); ?></li>
 								<li class=""><?php echo $this->Paginator->sort('category_id'); ?></li>
 								<li class=""><?php echo $this->Paginator->sort('status_id'); ?></li>
+								<li class=""><?php echo $this->Paginator->sort('user_id'); ?></li>
 							</ul>
 						</div>
 					</div>
@@ -91,6 +92,11 @@
 							<td>
 								<?php 
 								echo $this->Html->link($pin['Status']['title'], array('controller' => 'statuses', 'action' => 'view', $pin['Status']['id'])); 
+								?>
+							</td>
+							<td>
+								<?php 
+								echo $this->Html->link($pin['User']['login'], array('plugin'=>'Authake','controller' => 'users', 'action' => 'view', $pin['User']['id'])); 
 								?>
 							</td>
 							<td>

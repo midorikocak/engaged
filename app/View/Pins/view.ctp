@@ -22,59 +22,66 @@
 			<div class="section-body">
 				<div class="span12">
 					<div class="page-header">
-						<h3><?php  echo __('Pin Information'); ?></h3>
+						<h3><?php  echo __('Information'); ?></h3>
 					</div>
 					<table class="table table-outer-bordered table-striped">
 						<tbody>
 									<tr>
-									<th class="span3"><?php echo __('Pin Id'); ?></th>
+									<th class="span3"><?php echo __('Id'); ?></th>
 		<td>
 			<?php echo h($pin['Pin']['id']); ?>
 			&nbsp;
 		</td>
 									</tr>
 		<tr>
-									<th class="span3"><?php echo __('Pin Title'); ?></th>
+									<th class="span3"><?php echo __('Title'); ?></th>
 		<td>
 			<?php echo h($pin['Pin']['title']); ?>
 			&nbsp;
 		</td>
 									</tr>
 		<tr>
-									<th class="span3"><?php echo __('Pin Link'); ?></th>
+									<th class="span3"><?php echo __('Link'); ?></th>
 		<td>
 			<?php echo h($pin['Pin']['link']); ?>
 			&nbsp;
 		</td>
 									</tr>
 		<tr>
-									<th class="span3"><?php echo __('Pin Description'); ?></th>
+									<th class="span3"><?php echo __('Description'); ?></th>
 		<td>
 			<?php echo h($pin['Pin']['description']); ?>
 			&nbsp;
 		</td>
 									</tr>
 		<tr>
-									<th class="span3"><?php echo __('Pin Picture'); ?></th>
+									<th class="span3"><?php echo __('Picture'); ?></th>
 		<td>
 			<?php echo h($pin['Pin']['picture']); ?>
 			&nbsp;
 		</td>
 									</tr>
 		<tr>
-											<th class="span3"><?php echo __('Pin Category'); ?></th>
+											<th class="span3"><?php echo __('Category'); ?></th>
 		<td>
 			<?php echo $this->Html->link($pin['Category']['title'], array('controller' => 'categories', 'action' => 'view', $pin['Category']['id'])); ?>
 			&nbsp;
 		</td>
 											</tr>
 		<tr>
-											<th class="span3"><?php echo __('Pin Status'); ?></th>
+											<th class="span3"><?php echo __('Status'); ?></th>
 		<td>
 			<?php echo $this->Html->link($pin['Status']['title'], array('controller' => 'statuses', 'action' => 'view', $pin['Status']['id'])); ?>
 			&nbsp;
 		</td>
+											</tr>
 											<tr>
+                                    											<th class="span3"><?php echo __('User'); ?></th>
+                                    		<td>
+                                    			<?php echo $this->Html->link($pin['User']['login'], array('plugin'=>'Authake','controller' => 'users', 'action' => 'view', $pin['User']['id'])); ?>
+                                    			&nbsp;
+                                    		</td>
+                                    											</tr>
 						</tbody>
 					</table>
 					<div class="well well-small">

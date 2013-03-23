@@ -22,19 +22,19 @@
 			<div class="section-body">
 				<div class="span12">
 					<div class="page-header">
-						<h3><?php  echo __('Status Information'); ?></h3>
+						<h3><?php  echo __('Information'); ?></h3>
 					</div>
 					<table class="table table-outer-bordered table-striped">
 						<tbody>
 									<tr>
-									<th class="span3"><?php echo __('Status Id'); ?></th>
+									<th class="span3"><?php echo __('Id'); ?></th>
 		<td>
 			<?php echo h($status['Status']['id']); ?>
 			&nbsp;
 		</td>
 									</tr>
 		<tr>
-									<th class="span3"><?php echo __('Status Title'); ?></th>
+									<th class="span3"><?php echo __('Title'); ?></th>
 		<td>
 			<?php echo h($status['Status']['title']); ?>
 			&nbsp;
