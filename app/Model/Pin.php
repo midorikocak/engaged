@@ -15,21 +15,21 @@ class Pin extends AppModel {
  */
 	public $displayField = 'title';
 	
-	public $validate = array(
-            'title' => array(
-                'alphaNumeric' => array(
-                                'rule'     => 'alphaNumeric',
-                                'required' => true,
-                                'message'  => 'Alphabets and numbers only'
-                            )
-            ),
-            'picture' => array(
-                'rule'    => array('extension', array('gif', 'jpeg', 'png', 'jpg'),
-                                    'filesize', '<=', '1MB'
-                                    ),
-                    'message' => 'Please supply a valid image.'
-            )
-        );
+    // public $validate = array(
+    //             'title' => array(
+    //                 'alphaNumeric' => array(
+    //                                 'rule'     => 'alphaNumeric',
+    //                                 'required' => true,
+    //                                 'message'  => 'Alphabets and numbers only'
+    //                             )
+    //             ),
+    //             'picture' => array(
+    //                 'rule'    => array('extension', array('gif', 'jpeg', 'png', 'jpg'),
+    //                                     'filesize', '<=', '1MB'
+    //                                     ),
+    //                     'message' => 'Please supply a valid image.'
+    //             )
+    //         );
 
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
