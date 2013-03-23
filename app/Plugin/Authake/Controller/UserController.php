@@ -244,7 +244,7 @@ class UserController extends AuthakeAppController {
 					{
 						$this->Session->setFlash(sprintf(__('Failed to send the confirmation email. Please contact the administrator at %s'), Configure::read('Authake.systemReplyTo')), 'error', array('plugin' => 'Authake'));
 					}
-					if(!$this->request->data['Requester'])
+					if(!isset($this->request->data['Requester']))
 					{
 					$this->redirect(array('plugin'=>'authake', 'controller'=>'user', 'action'=>'login'));
 					}
