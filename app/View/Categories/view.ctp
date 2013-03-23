@@ -32,35 +32,21 @@
 			<?php echo h($category['Category']['id']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Category Title'); ?></th>
 		<td>
 			<?php echo h($category['Category']['title']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 											<th class="span3"><?php echo __('Category Parent Category'); ?></th>
 		<td>
 			<?php echo $this->Html->link($category['ParentCategory']['title'], array('controller' => 'categories', 'action' => 'view', $category['ParentCategory']['id'])); ?>
 			&nbsp;
 		</td>
-											<tr>
-		<tr>
-									<th class="span3"><?php echo __('Category Lft'); ?></th>
-		<td>
-			<?php echo h($category['Category']['lft']); ?>
-			&nbsp;
-		</td>
-									<tr>
-		<tr>
-									<th class="span3"><?php echo __('Category Rght'); ?></th>
-		<td>
-			<?php echo h($category['Category']['rght']); ?>
-			&nbsp;
-		</td>
-									<tr>
+											</tr>
 		<tr>
 											<th class="span3"><?php echo __('Category Status'); ?></th>
 		<td>
@@ -92,8 +78,6 @@
 			<td><?php echo $childCategory['id']; ?></td>
 			<td><?php echo $childCategory['title']; ?></td>
 			<td><?php echo $childCategory['parent_id']; ?></td>
-			<td><?php echo $childCategory['lft']; ?></td>
-			<td><?php echo $childCategory['rght']; ?></td>
 			<td><?php echo $childCategory['status_id']; ?></td>
 
 					            	<td>
@@ -144,8 +128,6 @@
 		<tr>
 			<td><?php echo $pin['id']; ?></td>
 			<td><?php echo $pin['title']; ?></td>
-			<td><?php echo $pin['link']; ?></td>
-			<td><?php echo $pin['description']; ?></td>
 			<td><?php echo $pin['picture']; ?></td>
 			<td><?php echo $pin['category_id']; ?></td>
 			<td><?php echo $pin['status_id']; ?></td>

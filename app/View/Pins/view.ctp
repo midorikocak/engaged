@@ -32,42 +32,42 @@
 			<?php echo h($pin['Pin']['id']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Pin Title'); ?></th>
 		<td>
 			<?php echo h($pin['Pin']['title']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Pin Link'); ?></th>
 		<td>
 			<?php echo h($pin['Pin']['link']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Pin Description'); ?></th>
 		<td>
 			<?php echo h($pin['Pin']['description']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Pin Picture'); ?></th>
 		<td>
 			<?php echo h($pin['Pin']['picture']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 											<th class="span3"><?php echo __('Pin Category'); ?></th>
 		<td>
 			<?php echo $this->Html->link($pin['Category']['title'], array('controller' => 'categories', 'action' => 'view', $pin['Category']['id'])); ?>
 			&nbsp;
 		</td>
-											<tr>
+											</tr>
 		<tr>
 											<th class="span3"><?php echo __('Pin Status'); ?></th>
 		<td>

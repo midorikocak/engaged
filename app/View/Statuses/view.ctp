@@ -32,7 +32,7 @@
 			<?php echo h($status['Status']['id']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Status Title'); ?></th>
 		<td>

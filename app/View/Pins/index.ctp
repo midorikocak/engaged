@@ -61,8 +61,6 @@
 								<li class="active"><?php echo $this->Paginator->sort('id'); ?></li>
 								<li class=""><?php echo $this->Paginator->sort('title'); ?></li>
 								<li class=""><?php echo $this->Paginator->sort('link'); ?></li>
-								<li class=""><?php echo $this->Paginator->sort('description'); ?></li>
-								<li class=""><?php echo $this->Paginator->sort('picture'); ?></li>
 								<li class=""><?php echo $this->Paginator->sort('category_id'); ?></li>
 								<li class=""><?php echo $this->Paginator->sort('status_id'); ?></li>
 							</ul>
@@ -84,14 +82,6 @@
 							<td>
 								<?php
 								echo h($pin['Pin']['link']); ?>&nbsp;
-							</td>
-							<td>
-								<?php
-								echo h($pin['Pin']['description']); ?>&nbsp;
-							</td>
-							<td>
-								<?php
-								echo h($pin['Pin']['picture']); ?>&nbsp;
 							</td>
 							<td>
 								<?php 

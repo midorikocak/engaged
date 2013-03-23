@@ -21,7 +21,11 @@
           </div>
           <div class="modal-footer">
             <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <?php
+            if($pin['link']!=null):
+            ?>
             <a href="<?php echo $pin['link'];?>"><button class="btn btn-success"><?php echo __('Go to site');?></button></a>
+            <?php endif; ?>
           </div>
         </div>
         <p><?php echo $pin['title'];?><br><small><?php
@@ -37,6 +41,10 @@
         ?></small></p>
         <p>
             <a class="btn btn-info btn-small" href="#<?php echo $pinId;?>" data-toggle="modal"><?php echo __('View Details');?></a>
+            <?php
+            if($pin['link']!=null):
+            ?>
             <a class="btn btn-small" href="<?php echo $pin['link'];?>"><?php echo __('Go to site');?></a></p>
+            <?php endif; ?>
     </div>
 </div>

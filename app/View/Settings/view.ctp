@@ -32,49 +32,49 @@
 			<?php echo h($setting['Setting']['id']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Setting Title'); ?></th>
 		<td>
 			<?php echo h($setting['Setting']['title']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Setting Logo'); ?></th>
 		<td>
 			<?php echo h($setting['Setting']['logo']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Setting Slogan'); ?></th>
 		<td>
 			<?php echo h($setting['Setting']['slogan']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Setting PinBackgroundColor'); ?></th>
 		<td>
 			<?php echo h($setting['Setting']['pinBackgroundColor']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Setting BodyBackgroundColor'); ?></th>
 		<td>
 			<?php echo h($setting['Setting']['bodyBackgroundColor']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Setting BackgroundImage'); ?></th>
 		<td>
 			<?php echo h($setting['Setting']['backgroundImage']); ?>
 			&nbsp;
 		</td>
-									<tr>
+									</tr>
 		<tr>
 									<th class="span3"><?php echo __('Setting HeaderBackgroundColor'); ?></th>
 		<td>
