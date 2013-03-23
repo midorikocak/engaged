@@ -1,25 +1,25 @@
 <?php
 header('Content-type: text/css');
 
-if(isset($_GET['pinBackgroundColor']))
+if($_GET['pinBackgroundColor']!='')
 {
-    $pinBackgroundColor = $_GET['pinBackgroundColor'];
+    $pinBackgroundColor = urldecode($_GET['pinBackgroundColor']);
 }
 else
 {
     $pinBackgroundColor = "white";
 }
 
-if(isset($_GET['bodyBackgroundColor']))
+if($_GET['bodyBackgroundColor']!='')
 {
-    $bodyBackgroundColor = $_GET['bodyBackgroundColor'];
+    $bodyBackgroundColor = urldecode($_GET['bodyBackgroundColor']);
 }
 else
 {
     $bodyBackgroundColor = "white";
 }
 
-if(isset($_GET['backgroundImage']))
+if($_GET['backgroundImage']!='')
 {
     $backgroundImage = $_GET['backgroundImage'];
 }
@@ -28,9 +28,9 @@ else
     $backgroundImage = null;
 }
 
-if(isset($_GET['headerBackgroundColor']))
+if($_GET['headerBackgroundColor']!='')
 {
-    $headerBackgroundColor = $_GET['headerBackgroundColor'];
+    $headerBackgroundColor = urldecode($_GET['headerBackgroundColor']);
 }
 else
 {
@@ -38,6 +38,13 @@ else
 }
 
 ?>
+
+/*
+<?php
+var_dump($_GET['bodyBackgroundColor']);
+var_dump(urldecode($_GET['bodyBackgroundColor']));
+?>
+*/
 
 header
 {
@@ -55,7 +62,7 @@ body
         echo "background-image: url('../img/".$backgroundImage."');";
     }
     ?>
-    background-color: <?php echo $pinBackgroundColor; ?>;
+    background-color: <?php echo $bodyBackgroundColor; ?>;
 }
 
 #logo
