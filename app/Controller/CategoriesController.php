@@ -119,7 +119,7 @@ function flatten(array $array) {
 
     			if ($this->Category->save($this->request->data)) {
     				$this->Session->setFlash(__('The category has been saved'),'success');
-    				$this->redirect(array('action' => 'index'));
+    				$this->redirect('/');
     			} else {
     				$this->Session->setFlash(__('The category could not be saved. Please, try again.'),'warning');
     			}
