@@ -1,4 +1,3 @@
 
-app/tmp/cache/cake_toolbar_cache
-
-app/tmp/cache/persistent/myapp_cake_core_default_en-us
+app/tmp/
+*.log
