@@ -34,11 +34,25 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
     public $components = array('DebugKit.Toolbar','Session','RequestHandler', 'Authake.Authake');
     var $helpers = array('Form', 'Time', 'Html', 'Session', 'Js', 'Authake.Authake','Word');
+    var $uses = ('Setting','Category');
     
     function beforeFilter(){
         $this->auth();
         Cache::set(array('duration' => '+1 year'));
         $settings = Cache::read("Settings","long");
+        $categories = Cache::read("Categories","long");
+        
+        if(empty($settings))
+        {
+            $settings = $this->Setting->find('first');
+            Cache::write('Settings', $settings, 'long');
+        }
+        
+        if(empty($categories))
+        {
+            $categories = $this->Category->find('threaded');
+            Cache::write('Categories', $categories, 'long');
+        }
         
         Configure::write('Config.language', 'eng');
         setlocale("LC_ALL", "en_EN.utf8");
