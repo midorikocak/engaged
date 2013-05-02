@@ -34,7 +34,7 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
     public $components = array('DebugKit.Toolbar','Session','RequestHandler', 'Authake.Authake');
     var $helpers = array('Form', 'Time', 'Html', 'Session', 'Js', 'Authake.Authake','Word');
-    var $uses = ('Setting','Category');
+    $uses = array('Setting','Category');
     
     function beforeFilter(){
         $this->auth();
