@@ -1,3 +1,5 @@
 
 
 app/tmp/
+
+app/tmp/logs/error.log
