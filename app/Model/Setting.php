@@ -40,7 +40,7 @@ class Setting extends AppModel {
             // )
         );
 
-    public function afterSave() {
+    public function afterSave($created) {
        $this->_cacheNav();
     }
 
