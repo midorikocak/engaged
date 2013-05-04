@@ -25,7 +25,7 @@ Installation
 ----------------
 
 1. Copy the all files to your server. For general xampp or mamp there is a htdocs folder. Create a folder named 'engaged' and copy all files there. If you install to your local webserver, at the end you should access to you Engaged app from http://127.0.0.1/engaged. Don't try to access it now. Installation is not finished yet :)
-2. You have to first change permissions of App/tmp folder and it's subfolders. If you receive App/tmp/cache/persistent error, just create that folder. Also change the permissions for App/webroot/img folders. (Unix: Chmod 777) (Windows: I don't know)
+2. You have to first change permissions of App/tmp folder and it's subfolders. If you receive App/tmp/cache/persistent error, just create that folder. Also change the permissions for App/webroot/img folders. (Unix: Chmod 777) (Windows: I don't know). You have to do samething to the App/webroot/img folder.
 3. On your MySQL database, create a database called engaged. Import engaged.sql file in the db folder.
 4. Change App/Config/database.php like:
 
