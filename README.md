@@ -61,6 +61,9 @@ Installation
     );
     
 5. After you change the database config, you can access http://127.0.0.1/engaged. A wild installation form will appear. Simply change that as you want and you are ready!
+6. Default admin username is admin, default admin password is admin too. User authentication settings can be accessed from the http://127.0.0.1/engaged/authake if your app name is engaged of course.
+7. For administration, just go to the http://127.0.0.1/engaged/pins.
+8. Enjoy!
 
 Author
 ----------------
