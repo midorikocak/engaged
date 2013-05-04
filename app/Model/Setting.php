@@ -14,13 +14,10 @@ class Setting extends AppModel {
 	public $displayField = 'title';
 	
 	public $validate = array(
-            'title' => array(
-                'alphaNumeric' => array(
-                                'rule'     => 'alphaNumeric',
-                                'required' => true,
-                                'message'  => 'Alphabets and numbers only'
-                            )
-            )
+        'title' => array(
+            'rule'    => 'notEmpty',
+            'message' => 'This field cannot be left blank'
+        )
             // ,
             // 'logo' => array(
             //     'rule'    => array('extension', array('gif', 'jpeg', 'png', 'jpg'),
