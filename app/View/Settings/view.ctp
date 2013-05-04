@@ -9,7 +9,7 @@
 				<h3><?php  echo __('Setting'); ?></h3>
 				<div class="section-actions">
 					<div class="btn-group">
-						<a class="btn btn-primary" role="button" onclick="editSetting()" data-toggle="modal"><?php  echo __('Edit Setting'); ?></a>
+						<a class="btn btn-primary" role="button" onclick="editSettings(<?php echo $setting['Setting']['id'];?>)" data-toggle="modal"><?php  echo __('Edit Setting'); ?></a>
 						<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">
 							<span class="caret"></span>
 						</button>
@@ -87,7 +87,7 @@
 					<div class="well well-small">
 						<div class="btn-toolbar ac">
 							<div class="btn-group">
-								<a class="btn" onclick="editSetting()" role="button" data-toggle="modal"><?php  echo __('Edit Setting'); ?></a>
+								<a class="btn" onclick="editSettings(<?php echo $setting['Setting']['id'];?>)" role="button" data-toggle="modal"><?php  echo __('Edit Setting'); ?></a>
 							</div>
 						</div>
 					</div>

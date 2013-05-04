@@ -12,9 +12,6 @@
 							));
 						?>					</small>
 				</h3>
-				<div class="section-actions">
-					<a role="button" class="btn btn-primary" data-toggle="modal" onclick="new<?php echo __('Setting'); ?>();"><?php echo __('New Setting'); ?></a>
-				</div>
 			</div>
 			<div class="section-body">
 				<div class="well well-small">
@@ -125,9 +122,6 @@
 						<?php endforeach; ?>
 					</tbody>
 				</table>
-				<div class="form-actions">
-					<a role="button" class="btn btn-primary" data-toggle="modal" onclick="newSetting();"><?php 		echo __('New Setting');?></a>
-				</div>
 			</div>
 			<div class="form-actions">
 				<div class="pagination">

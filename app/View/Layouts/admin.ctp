@@ -7,14 +7,20 @@
 	echo $this->Html->charset();
 	echo $this->Html->meta('icon');
 	$this->Html->css('/css/bootstrap.min', null, array('inline' => false));
+	$this->Html->css('/css/jquery.minicolors', null, array('inline' => false));
 	$this->Html->css('/css/admin', null, array('inline' => false));
 	$this->Html->script('jquery-latest', array('block' => 'script'));
 	$this->Html->script('bootstrap.min', array('block' => 'script'));
+    $this->Html->script('jquery.minicolors', array('block' => 'script'));
 	$this->Html->script('html5shiv', array('block' => 'script'));
 
 	echo $this->fetch('meta');
 	echo $this->fetch('css');
 	echo $this->fetch('script');
+	
+	Cache::set(array('duration' => '+1 year'));
+    $settings = Cache::read("Settings","long");
+	
 	?>
 </head>
 <body>
@@ -53,7 +59,7 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a role="button" data-toggle="modal" onclick="editSettings();">Edit Settings</a></li>
+								<li><a role="button" data-toggle="modal" onclick="editSettings(<?php echo $settings['Setting']['id'];?>);">Edit Settings</a></li>
 							</ul>
 						</li>
 					</ul>
