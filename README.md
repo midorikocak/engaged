@@ -21,6 +21,15 @@ Requirements
 - PHP installed webserver 5.3+
 - MySQL database
 
+Previous Errors
+----------------
+
+If you encounered errors like redirection loop, you have to redownload the package to the last version. If your authentication does not work, just run this in your engaged database:
+    
+    ALTER TABLE  `authake_rules` CHANGE  `permission`  `permission` TINYINT( 1 ) NOT NULL DEFAULT  '0'
+    
+This will solve allowed rules problem.
+
 Installation
 ----------------
 
