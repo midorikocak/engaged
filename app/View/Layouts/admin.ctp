@@ -116,4 +116,13 @@ function newPin()
 	});
 	$('#addPin').modal();
 }
+function editSettings(settingId)
+{
+	var link = "<?php echo $this->Html->url(array('controller'=>'settings','action'=>'edit')); ?>"+"/";
+	$('#mainDynamicData').empty();
+	$('#mainDynamicData').load(link+settingId, function(data) {
+		$('#editSetting').modal();
+	});
+	$('#editSetting').modal();
+}
 </script>
